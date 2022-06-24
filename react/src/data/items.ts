@@ -9,9 +9,17 @@ export type Item = {
 };
 
 export const itemMap = new Map<string, Item>([
-  ...Object.values(pokemon).map(
-    (pokemon) => [`p${pokemon.id}`, pokemon] as const
+  ...sortById(
+    Object.values(pokemon).map((pokemon) => [`p${pokemon.id}`, pokemon])
   ),
-  ...Object.values(move).map((move) => [`m${move.id}`, move] as const),
-  ...Object.values(item).map((item) => [`i${item.id}`, item] as const),
+  ...sortById(Object.values(move).map((move) => [`m${move.id}`, move])),
+  ...sortById(Object.values(item).map((item) => [`i${item.id}`, item])),
 ]);
+
+function sortById(
+  arr: (readonly [string, Item])[]
+): (readonly [string, Item])[] {
+  return arr.sort((a, b) => {
+    return a[1].id - b[1].id;
+  });
+}
