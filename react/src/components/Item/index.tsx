@@ -1,29 +1,29 @@
 import { useMemo } from "react";
-import { pokemonMap } from "../../data/pokemon";
-import classes from "./Pokemon.module.css";
+import { itemMap } from "../../data/items";
+import classes from "./Item.module.css";
 
 type Props = {
   /**
-   * ID of Pokemon
+   * ID of Item
    */
-  id: number;
+  id: string;
   /**
    * Search query, in lowercase
    */
   searchQuery: string;
 };
 
-export const Pokemon: React.FC<Props> = ({ id, searchQuery }) => {
-  const poke = pokemonMap.get(id);
-  if (!poke) {
+export const Item: React.FC<Props> = ({ id, searchQuery }) => {
+  const item = itemMap.get(id);
+  if (!item) {
     return null;
   }
 
-  const name = poke.en.toLowerCase();
+  const name = item.en.toLowerCase();
   const { nameMarked } = useMemo(() => {
     if (!searchQuery) {
       return {
-        nameMarked: <span className={classes.name}>{poke.en}</span>,
+        nameMarked: <span className={classes.name}>{item.en}</span>,
       };
     }
     const searchIndex = name.indexOf(searchQuery);
@@ -31,7 +31,7 @@ export const Pokemon: React.FC<Props> = ({ id, searchQuery }) => {
       return {
         nameMarked: (
           <span className={`${classes.name} ${classes.unmatchedName}`}>
-            {poke.en}
+            {item.en}
           </span>
         ),
       };
@@ -39,21 +39,21 @@ export const Pokemon: React.FC<Props> = ({ id, searchQuery }) => {
     return {
       nameMarked: (
         <span className={classes.name}>
-          {poke.en.substring(0, searchIndex)}
+          {item.en.substring(0, searchIndex)}
           <mark>
-            {poke.en.substring(searchIndex, searchIndex + searchQuery.length)}
+            {item.en.substring(searchIndex, searchIndex + searchQuery.length)}
           </mark>
-          {poke.en.substring(searchIndex + searchQuery.length)}
+          {item.en.substring(searchIndex + searchQuery.length)}
         </span>
       ),
     };
-  }, [name, searchQuery]);
+  }, [name, item.en, searchQuery]);
 
   return (
     <div className={classes.wrapper}>
-      <div className={classes.id}>{poke.id}</div>
+      <div className={classes.id}>{item.id}</div>
       <div>{nameMarked}</div>
-      <div>{poke.ja}</div>
+      <div>{item.ja}</div>
     </div>
   );
 };

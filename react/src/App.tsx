@@ -1,8 +1,8 @@
 import { useCallback, useState, useTransition } from "react";
 import classes from "./App.module.css";
-import { Pokemon } from "./components/Pokemon";
+import { Item } from "./components/Item";
 import { SearchBox } from "./components/SearchBox";
-import { pokemonMap } from "./data/pokemon";
+import { itemMap } from "./data/items";
 
 function App() {
   const [input, setInput] = useState("");
@@ -18,8 +18,8 @@ function App() {
   return (
     <>
       <div className={classes.pokemonList}>
-        {Array.from(pokemonMap.keys()).map((id) => {
-          return <Pokemon key={id} id={id} searchQuery={searchQuery} />;
+        {Array.from(itemMap.keys()).map((id) => {
+          return <Item key={id} id={id} searchQuery={searchQuery} />;
         })}
       </div>
       <div className={classes.searchBox}>
