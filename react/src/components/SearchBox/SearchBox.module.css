@@ -3,14 +3,8 @@
   grid-template-columns: 3rem auto 3rem;
   grid-template-rows: 3rem auto 3rem;
 
-  /* stripe */
-  background-image: linear-gradient(
-    to top right,
-    transparent,
-    transparent 16px,
-    var(--bg-sub-color) 16px,
-    var(--bg-sub-color) 32px
-  );
+  border: 1px solid var(--text-color);
+  background-color: var(--bg-sub-color);
   background-repeat: repeat;
 }
 

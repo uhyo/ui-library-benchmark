@@ -22,6 +22,15 @@ function App() {
           return <Item key={id} id={id} searchQuery={searchQuery} />;
         })}
       </div>
+      <footer className={classes.footer}>
+        <p>
+          Data is obtained from{" "}
+          <a href="https://pokeapi.co/" rel="external">
+            PokéAPI
+          </a>
+          .
+        </p>
+      </footer>
       <div className={classes.searchBox}>
         <SearchBox input={input} onChange={onChange} />
       </div>
