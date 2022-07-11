@@ -1,0 +1,15 @@
+.wrapper {
+  background-color: var(--bg-sub-color);
+}
+
+.id {
+  color: var(--text-sub-color)
+}
+
+.name > mark {
+  font-weight: bold;
+}
+
+.unmatchedName {
+  color: var(--text-sub-color);
+}
