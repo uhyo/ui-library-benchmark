@@ -1,0 +1,23 @@
+{
+  "name": "ui-library-benchmark",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/uhyo/ui-library-benchmark.git",
+  "author": "uhyo <uhyo@uhy.ooo>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./build.sh",
+    "serve": "http-server ./dist"
+  },
+  "private": true,
+  "workspaces": [
+    "angular",
+    "react",
+    "solidjs",
+    "svelte",
+    "vue"
+  ],
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
