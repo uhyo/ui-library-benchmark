@@ -1,0 +1,17 @@
+<div class="pokemonList">
+  <app-item
+    *ngFor="let id of itemIds"
+    [id]="id"
+    [searchQuery]="searchQuery"
+  ></app-item>
+</div>
+<footer>
+  <p>
+    Data is obtained from
+    <a href="https://pokeapi.co/" rel="external"> PokéAPI </a>
+    .
+  </p>
+</footer>
+<div class="searchBox">
+  <search-box [value]="input" (valueChange)="onInput($event)"></search-box>
+</div>

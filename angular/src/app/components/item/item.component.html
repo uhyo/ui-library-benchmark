@@ -1,0 +1,11 @@
+<div class="wrapper" *ngIf="item && nameMarked">
+  <div class="id">{{ id }}</div>
+  <div>
+    <span class="name" [class.unmatchedName]="nameMarked.unmatched">
+      {{ nameMarked.prefix
+      }}<mark *ngIf="nameMarked.mark">{{ nameMarked.mark }}</mark
+      >{{ nameMarked.suffix }}
+    </span>
+  </div>
+  <div>{{ item.ja }}</div>
+</div>

@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <input
+    type="text"
+    class="input"
+    [ngModel]="value"
+    (ngModelChange)="valueChange.emit($event)"
+  />
+</div>

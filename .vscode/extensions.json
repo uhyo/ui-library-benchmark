@@ -1,3 +1,7 @@
 {
-  "recommendations": ["Vue.volar", "svelte.svelte-vscode"]
+  "recommendations": [
+    "Vue.volar",
+    "svelte.svelte-vscode",
+    "angular.ng-template"
+  ]
 }
