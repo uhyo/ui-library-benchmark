@@ -1,0 +1,2037 @@
+[
+  {
+    "id": 344,
+    "en": "Mystery Zone",
+    "ja": "なぞの場所"
+  },
+  {
+    "id": 345,
+    "en": "Faraway place",
+    "ja": "遠い場所"
+  },
+  {
+    "id": 346,
+    "en": "Nuvema Town",
+    "ja": "カノコタウン"
+  },
+  {
+    "id": 347,
+    "en": "Accumula Town",
+    "ja": "カラクサタウン"
+  },
+  {
+    "id": 348,
+    "en": "Striaton City",
+    "ja": "サンヨウシティ"
+  },
+  {
+    "id": 349,
+    "en": "Nacrene City",
+    "ja": "シッポウシティ"
+  },
+  {
+    "id": 350,
+    "en": "Castelia City",
+    "ja": "ヒウンシティ"
+  },
+  {
+    "id": 351,
+    "en": "Nimbasa City",
+    "ja": "ライモンシティ"
+  },
+  {
+    "id": 352,
+    "en": "Driftveil City",
+    "ja": "ホドモエシティ"
+  },
+  {
+    "id": 353,
+    "en": "Mistralton City",
+    "ja": "フキヨセシティ"
+  },
+  {
+    "id": 354,
+    "en": "Icirrus City",
+    "ja": "セッカシティ"
+  },
+  {
+    "id": 355,
+    "en": "Opelucid City",
+    "ja": "ソウリュウシティ"
+  },
+  {
+    "id": 356,
+    "en": "Route 1",
+    "ja": "１番道路"
+  },
+  {
+    "id": 357,
+    "en": "Route 2",
+    "ja": "２番道路"
+  },
+  {
+    "id": 358,
+    "en": "Route 3",
+    "ja": "３番道路"
+  },
+  {
+    "id": 359,
+    "en": "Route 4",
+    "ja": "４番道路"
+  },
+  {
+    "id": 360,
+    "en": "Route 5",
+    "ja": "５番道路"
+  },
+  {
+    "id": 361,
+    "en": "Route 6",
+    "ja": "６番道路"
+  },
+  {
+    "id": 362,
+    "en": "Route 7",
+    "ja": "７番道路"
+  },
+  {
+    "id": 363,
+    "en": "Route 8",
+    "ja": "８番道路"
+  },
+  {
+    "id": 364,
+    "en": "Route 9",
+    "ja": "９番道路"
+  },
+  {
+    "id": 365,
+    "en": "Route 10",
+    "ja": "１０番道路"
+  },
+  {
+    "id": 366,
+    "en": "Route 11",
+    "ja": "１１番道路"
+  },
+  {
+    "id": 367,
+    "en": "Route 12",
+    "ja": "１２番道路"
+  },
+  {
+    "id": 368,
+    "en": "Route 13",
+    "ja": "１３番道路"
+  },
+  {
+    "id": 369,
+    "en": "Route 14",
+    "ja": "１４番道路"
+  },
+  {
+    "id": 370,
+    "en": "Route 15",
+    "ja": "１５番道路"
+  },
+  {
+    "id": 371,
+    "en": "Route 16",
+    "ja": "１６番道路"
+  },
+  {
+    "id": 372,
+    "en": "Route 17",
+    "ja": "１７番水道"
+  },
+  {
+    "id": 373,
+    "en": "Route 18",
+    "ja": "１８番道路"
+  },
+  {
+    "id": 374,
+    "en": "Dreamyard",
+    "ja": "夢の跡地"
+  },
+  {
+    "id": 375,
+    "en": "Pinwheel Forest",
+    "ja": "ヤグルマの森"
+  },
+  {
+    "id": 376,
+    "en": "Desert Resort",
+    "ja": "リゾートデザート"
+  },
+  {
+    "id": 377,
+    "en": "Relic Castle",
+    "ja": "古代の城"
+  },
+  {
+    "id": 378,
+    "en": "Cold Storage",
+    "ja": "冷凍コンテナ"
+  },
+  {
+    "id": 379,
+    "en": "Chargestone Cave",
+    "ja": "電気石の洞穴"
+  },
+  {
+    "id": 380,
+    "en": "Twist Mountain",
+    "ja": "ネジ山"
+  },
+  {
+    "id": 381,
+    "en": "Dragonspiral Tower",
+    "ja": "リュウラセンの塔"
+  },
+  {
+    "id": 382,
+    "en": "Victory Road",
+    "ja": "チャンピオンロード"
+  },
+  {
+    "id": 383,
+    "en": "Lacunosa Town",
+    "ja": "カゴメタウン"
+  },
+  {
+    "id": 384,
+    "en": "Undella Town",
+    "ja": "サザナミタウン"
+  },
+  {
+    "id": 385,
+    "en": "Anville Town",
+    "ja": "カナワタウン"
+  },
+  {
+    "id": 386,
+    "en": "Pokémon League",
+    "ja": "ポケモンリーグ"
+  },
+  {
+    "id": 387,
+    "en": "N's Castle",
+    "ja": "Ｎの城"
+  },
+  {
+    "id": 388,
+    "en": "Royal Unova",
+    "ja": "ロイヤルイッシュ号"
+  },
+  {
+    "id": 389,
+    "en": "Gear Station",
+    "ja": "ギアステーション"
+  },
+  {
+    "id": 390,
+    "en": "Battle Subway",
+    "ja": "バトルサブウェイ"
+  },
+  {
+    "id": 391,
+    "en": "Musical Theater",
+    "ja": "ミュージカルホール"
+  },
+  {
+    "id": 392,
+    "en": "Black City",
+    "ja": "ブラックシティ"
+  },
+  {
+    "id": 393,
+    "en": "White Forest",
+    "ja": "ホワイトフォレスト"
+  },
+  {
+    "id": 394,
+    "en": "Unity Tower",
+    "ja": "ユナイテッドタワー"
+  },
+  {
+    "id": 395,
+    "en": "Wellspring Cave",
+    "ja": "地下水脈の穴"
+  },
+  {
+    "id": 396,
+    "en": "Mistralton Cave",
+    "ja": "フキヨセの洞穴"
+  },
+  {
+    "id": 397,
+    "en": "Rumination Field",
+    "ja": "思索の原"
+  },
+  {
+    "id": 398,
+    "en": "Celestial Tower",
+    "ja": "タワーオブヘブン"
+  },
+  {
+    "id": 399,
+    "en": "Moor of Icirrus",
+    "ja": "セッカの湿原"
+  },
+  {
+    "id": 400,
+    "en": "Shopping Mall",
+    "ja": "ショッピングモール"
+  },
+  {
+    "id": 401,
+    "en": "Challenger's Cave",
+    "ja": "修行の岩屋"
+  },
+  {
+    "id": 402,
+    "en": "Poké Transfer Lab",
+    "ja": "シフトファクトリー"
+  },
+  {
+    "id": 403,
+    "en": "Giant Chasm",
+    "ja": "ジャイアントホール"
+  },
+  {
+    "id": 404,
+    "en": "Liberty Garden",
+    "ja": "リバティガーデン島"
+  },
+  {
+    "id": 405,
+    "en": "P2 Laboratory",
+    "ja": "Ｐ２ラボ"
+  },
+  {
+    "id": 406,
+    "en": "Skyarrow Bridge",
+    "ja": "スカイアローブリッジ"
+  },
+  {
+    "id": 407,
+    "en": "Driftveil Drawbridge",
+    "ja": "ホドモエの跳ね橋"
+  },
+  {
+    "id": 408,
+    "en": "Tubeline Bridge",
+    "ja": "シリンダーブリッジ"
+  },
+  {
+    "id": 409,
+    "en": "Village Bridge",
+    "ja": "ビレッジブリッジ"
+  },
+  {
+    "id": 410,
+    "en": "Marvelous Bridge",
+    "ja": "ワンダーブリッジ"
+  },
+  {
+    "id": 411,
+    "en": "Entralink",
+    "ja": "ハイリンク"
+  },
+  {
+    "id": 412,
+    "en": "Abundant Shrine",
+    "ja": "ほうじょうの社"
+  },
+  {
+    "id": 413,
+    "en": "Undella Bay",
+    "ja": "サザナミ湾"
+  },
+  {
+    "id": 414,
+    "en": "Lostlorn Forest",
+    "ja": "迷いの森"
+  },
+  {
+    "id": 415,
+    "en": "Trial Chamber",
+    "ja": "試練の室"
+  },
+  {
+    "id": 416,
+    "en": "Guidance Chamber",
+    "ja": "導の間"
+  },
+  {
+    "id": 417,
+    "en": "Entree Forest",
+    "ja": "ハイリンクの森"
+  },
+  {
+    "id": 418,
+    "en": "Accumula Gate",
+    "ja": "カラクサゲート"
+  },
+  {
+    "id": 419,
+    "en": "Undella Gate",
+    "ja": "サザナミゲート"
+  },
+  {
+    "id": 420,
+    "en": "Nacrene Gate",
+    "ja": "シッポウゲート"
+  },
+  {
+    "id": 421,
+    "en": "Castelia Gate",
+    "ja": "ヒウンゲート"
+  },
+  {
+    "id": 422,
+    "en": "Nimbasa Gate",
+    "ja": "ライモンゲート"
+  },
+  {
+    "id": 423,
+    "en": "Opelucid Gate",
+    "ja": "ソウリュウゲート"
+  },
+  {
+    "id": 424,
+    "en": "Black Gate",
+    "ja": "ブラックゲート"
+  },
+  {
+    "id": 425,
+    "en": "White Gate",
+    "ja": "ホワイトゲート"
+  },
+  {
+    "id": 426,
+    "en": "Bridge Gate",
+    "ja": "ブリッジゲート"
+  },
+  {
+    "id": 427,
+    "en": "Route Gate",
+    "ja": "ロードゲート"
+  },
+  {
+    "id": 428,
+    "en": "Abyssal Ruins",
+    "ja": "海底遺跡"
+  },
+  {
+    "id": 429,
+    "en": "Petalburg City",
+    "ja": "トウカシティ"
+  },
+  {
+    "id": 430,
+    "en": "Slateport City",
+    "ja": "カイナシティ"
+  },
+  {
+    "id": 431,
+    "en": "Lilycove City",
+    "ja": "ミナモシティ"
+  },
+  {
+    "id": 432,
+    "en": "Mossdeep City",
+    "ja": "トクサネシティ"
+  },
+  {
+    "id": 433,
+    "en": "Sootopolis City",
+    "ja": "ルネシティ"
+  },
+  {
+    "id": 434,
+    "en": "Ever Grande City",
+    "ja": "サイユウシティ"
+  },
+  {
+    "id": 435,
+    "en": "Meteor Falls",
+    "ja": "りゅうせいのたき"
+  },
+  {
+    "id": 436,
+    "en": "Rusturf Tunnel",
+    "ja": "カナシダトンネル"
+  },
+  {
+    "id": 437,
+    "en": "Granite Cave",
+    "ja": "いしのどうくつ"
+  },
+  {
+    "id": 438,
+    "en": "Petalburg Woods",
+    "ja": "トウカのもり"
+  },
+  {
+    "id": 439,
+    "en": "Jagged Pass",
+    "ja": "デコボコさんどう"
+  },
+  {
+    "id": 440,
+    "en": "Fiery Path",
+    "ja": "ほのおのぬけみち"
+  },
+  {
+    "id": 441,
+    "en": "Mt. Pyre",
+    "ja": "おくりびやま"
+  },
+  {
+    "id": 442,
+    "en": "Seafloor Cavern",
+    "ja": "かいていどうくつ"
+  },
+  {
+    "id": 443,
+    "en": "Cave of Origin",
+    "ja": "めざめのほこら"
+  },
+  {
+    "id": 444,
+    "en": "Victory Road",
+    "ja": "チャンピオンロード"
+  },
+  {
+    "id": 445,
+    "en": "Shoal Cave",
+    "ja": "あさせのほらあな"
+  },
+  {
+    "id": 446,
+    "en": "New Mauville",
+    "ja": "ニューキンセツ"
+  },
+  {
+    "id": 448,
+    "en": "Sky Pillar",
+    "ja": "そらのはしら"
+  },
+  {
+    "id": 449,
+    "en": "Route 101",
+    "ja": "１０１ばんどうろ"
+  },
+  {
+    "id": 450,
+    "en": "Route 102",
+    "ja": "１０２ばんどうろ"
+  },
+  {
+    "id": 451,
+    "en": "Route 103",
+    "ja": "１０３ばんどうろ"
+  },
+  {
+    "id": 452,
+    "en": "Route 104",
+    "ja": "１０４ばんどうろ"
+  },
+  {
+    "id": 453,
+    "en": "Route 105",
+    "ja": "１０５ばんすいどう"
+  },
+  {
+    "id": 454,
+    "en": "Route 106",
+    "ja": "１０６ばんすいどう"
+  },
+  {
+    "id": 455,
+    "en": "Route 107",
+    "ja": "１０７ばんすいどう"
+  },
+  {
+    "id": 456,
+    "en": "Route 108",
+    "ja": "１０８ばんすいどう"
+  },
+  {
+    "id": 457,
+    "en": "Route 109",
+    "ja": "１０９ばんすいどう"
+  },
+  {
+    "id": 458,
+    "en": "Route 110",
+    "ja": "１１０ばんどうろ"
+  },
+  {
+    "id": 459,
+    "en": "Route 111",
+    "ja": "１１１ばんどうろ"
+  },
+  {
+    "id": 460,
+    "en": "Route 112",
+    "ja": "１１２ばんどうろ"
+  },
+  {
+    "id": 461,
+    "en": "Route 113",
+    "ja": "１１３ばんどうろ"
+  },
+  {
+    "id": 462,
+    "en": "Route 114",
+    "ja": "１１４ばんどうろ"
+  },
+  {
+    "id": 463,
+    "en": "Route 115",
+    "ja": "１１５ばんどうろ"
+  },
+  {
+    "id": 464,
+    "en": "Route 116",
+    "ja": "１１６ばんどうろ"
+  },
+  {
+    "id": 465,
+    "en": "Route 117",
+    "ja": "１１７ばんどうろ"
+  },
+  {
+    "id": 466,
+    "en": "Route 118",
+    "ja": "１１８ばんどうろ"
+  },
+  {
+    "id": 467,
+    "en": "Route 119",
+    "ja": "１１９ばんどうろ"
+  },
+  {
+    "id": 468,
+    "en": "Route 120",
+    "ja": "１２０ばんどうろ"
+  },
+  {
+    "id": 469,
+    "en": "Route 121",
+    "ja": "１２１ばんどうろ"
+  },
+  {
+    "id": 470,
+    "en": "Route 122",
+    "ja": "１２２ばんすいどう"
+  },
+  {
+    "id": 471,
+    "en": "Route 123",
+    "ja": "１２３ばんどうろ"
+  },
+  {
+    "id": 472,
+    "en": "Route 124",
+    "ja": "１２４ばんすいどう"
+  },
+  {
+    "id": 473,
+    "en": "Route 125",
+    "ja": "１２５ばんすいどう"
+  },
+  {
+    "id": 474,
+    "en": "Route 126",
+    "ja": "１２６ばんすいどう"
+  },
+  {
+    "id": 475,
+    "en": "Route 127",
+    "ja": "１２７ばんすいどう"
+  },
+  {
+    "id": 476,
+    "en": "Route 128",
+    "ja": "１２８ばんすいどう"
+  },
+  {
+    "id": 477,
+    "en": "Route 129",
+    "ja": "１２９ばんすいどう"
+  },
+  {
+    "id": 478,
+    "en": "Route 130",
+    "ja": "１３０ばんすいどう"
+  },
+  {
+    "id": 479,
+    "en": "Route 131",
+    "ja": "１３１ばんすいどう"
+  },
+  {
+    "id": 480,
+    "en": "Route 132",
+    "ja": "１３２ばんすいどう"
+  },
+  {
+    "id": 481,
+    "en": "Route 133",
+    "ja": "１３３ばんすいどう"
+  },
+  {
+    "id": 482,
+    "en": "Route 134",
+    "ja": "１３４ばんすいどう"
+  },
+  {
+    "id": 483,
+    "en": "Safari Zone",
+    "ja": "サファリゾーン"
+  },
+  {
+    "id": 484,
+    "en": "Dewford Town",
+    "ja": "ムロタウン"
+  },
+  {
+    "id": 485,
+    "en": "Pacifidlog Town",
+    "ja": "キナギタウン"
+  },
+  {
+    "id": 531,
+    "en": "Aspertia City",
+    "ja": "ヒオウギシティ"
+  },
+  {
+    "id": 532,
+    "en": "Virbank City",
+    "ja": "タチワキシティ"
+  },
+  {
+    "id": 533,
+    "en": "Humilau City",
+    "ja": "セイガイハシティ"
+  },
+  {
+    "id": 534,
+    "en": "PokéStar Studios",
+    "ja": "ポケウッド"
+  },
+  {
+    "id": 535,
+    "en": "Join Avenue",
+    "ja": "ジョインアベニュー"
+  },
+  {
+    "id": 536,
+    "en": "Floccesy Town",
+    "ja": "サンギタウン"
+  },
+  {
+    "id": 537,
+    "en": "Lentimas Town",
+    "ja": "ヤマジタウン"
+  },
+  {
+    "id": 538,
+    "en": "Route 19",
+    "ja": "１９番道路"
+  },
+  {
+    "id": 539,
+    "en": "Route 20",
+    "ja": "２０番道路"
+  },
+  {
+    "id": 540,
+    "en": "Route 21",
+    "ja": "２１番水道"
+  },
+  {
+    "id": 541,
+    "en": "Route 22",
+    "ja": "２２番道路"
+  },
+  {
+    "id": 542,
+    "en": "Route 23",
+    "ja": "２３番道路"
+  },
+  {
+    "id": 543,
+    "en": "Castelia Sewers",
+    "ja": "ヒウン下水道"
+  },
+  {
+    "id": 544,
+    "en": "Floccesy Ranch",
+    "ja": "サンギ牧場"
+  },
+  {
+    "id": 545,
+    "en": "Virbank Complex",
+    "ja": "タチワキコンビナート"
+  },
+  {
+    "id": 546,
+    "en": "Reversal Mountain",
+    "ja": "リバースマウンテン"
+  },
+  {
+    "id": 547,
+    "en": "Strange House",
+    "ja": "ストレンジャーハウス"
+  },
+  {
+    "id": 548,
+    "en": "Victory Road",
+    "ja": "チャンピオンロード"
+  },
+  {
+    "id": 549,
+    "en": "Plasma Frigate",
+    "ja": "プラズマフリゲート"
+  },
+  {
+    "id": 550,
+    "en": "Relic Passage",
+    "ja": "古代の抜け道"
+  },
+  {
+    "id": 551,
+    "en": "Clay Tunnel",
+    "ja": "ヤーコンロード"
+  },
+  {
+    "id": 552,
+    "en": "White Treehollow",
+    "ja": "白の樹洞"
+  },
+  {
+    "id": 553,
+    "en": "Black Tower",
+    "ja": "黒の摩天楼"
+  },
+  {
+    "id": 554,
+    "en": "Seaside Cave",
+    "ja": "海辺の洞穴"
+  },
+  {
+    "id": 555,
+    "en": "Cave of Being",
+    "ja": "心の空洞"
+  },
+  {
+    "id": 556,
+    "en": "Hidden Grotto",
+    "ja": "隠し穴"
+  },
+  {
+    "id": 557,
+    "en": "Marine Tube",
+    "ja": "マリンチューブ"
+  },
+  {
+    "id": 558,
+    "en": "Virbank Gate",
+    "ja": "タチワキゲート"
+  },
+  {
+    "id": 559,
+    "en": "Aspertia Gate",
+    "ja": "ヒオウギゲート"
+  },
+  {
+    "id": 560,
+    "en": "Nature Sanctuary",
+    "ja": "自然保護区"
+  },
+  {
+    "id": 561,
+    "en": "Medal Secretariat",
+    "ja": "メダル事務局"
+  },
+  {
+    "id": 562,
+    "en": "Underground Ruins",
+    "ja": "地底遺跡"
+  },
+  {
+    "id": 563,
+    "en": "Rocky Mountain Room",
+    "ja": "岩山の間"
+  },
+  {
+    "id": 564,
+    "en": "Glacier Room",
+    "ja": "氷山の間"
+  },
+  {
+    "id": 565,
+    "en": "Iron Room",
+    "ja": "鉄の間"
+  },
+  {
+    "id": 566,
+    "en": "Pledge Grove",
+    "ja": "誓いの林"
+  },
+  {
+    "id": 567,
+    "en": "Littleroot Town",
+    "ja": "ミシロタウン"
+  },
+  {
+    "id": 568,
+    "en": "Oldale Town",
+    "ja": "コトキタウン"
+  },
+  {
+    "id": 569,
+    "en": "Lavaridge Town",
+    "ja": "フエンタウン"
+  },
+  {
+    "id": 570,
+    "en": "Fallarbor Town",
+    "ja": "ハジツゲタウン"
+  },
+  {
+    "id": 571,
+    "en": "Verdanturf Town",
+    "ja": "シダケタウン"
+  },
+  {
+    "id": 572,
+    "en": "Mauville City",
+    "ja": "キンセツシティ"
+  },
+  {
+    "id": 573,
+    "en": "Rustboro City",
+    "ja": "カナズミシティ"
+  },
+  {
+    "id": 574,
+    "en": "Fortree City",
+    "ja": "ヒワマキシティ"
+  },
+  {
+    "id": 576,
+    "en": "Mt. Chimney",
+    "ja": "えんとつやま"
+  },
+  {
+    "id": 577,
+    "en": "Mirage Island",
+    "ja": "マボロシじま"
+  },
+  {
+    "id": 578,
+    "en": "Southern Island",
+    "ja": "みなみのことう"
+  },
+  {
+    "id": 579,
+    "en": "Sealed Chamber",
+    "ja": "おふれのせきしつ"
+  },
+  {
+    "id": 580,
+    "en": "Scorched Slab",
+    "ja": "ひでりのいわと"
+  },
+  {
+    "id": 581,
+    "en": "Island Cave",
+    "ja": "こじまのよこあな"
+  },
+  {
+    "id": 582,
+    "en": "Desert Ruins",
+    "ja": "さばくいせき"
+  },
+  {
+    "id": 583,
+    "en": "Ancient Tomb",
+    "ja": "こだいづか"
+  },
+  {
+    "id": 584,
+    "en": "???",
+    "ja": "？？？"
+  },
+  {
+    "id": 585,
+    "en": "Secret Base",
+    "ja": "ひみつきち"
+  },
+  {
+    "id": 587,
+    "en": "Vaniville Town",
+    "ja": "アサメタウン"
+  },
+  {
+    "id": 588,
+    "en": "Route 1",
+    "ja": "１ばんどうろ"
+  },
+  {
+    "id": 589,
+    "en": "Vaniville Pathway",
+    "ja": "アサメのこみち"
+  },
+  {
+    "id": 590,
+    "en": "Aquacorde Town",
+    "ja": "メイスイタウン"
+  },
+  {
+    "id": 591,
+    "en": "Route 2",
+    "ja": "２ばんどうろ"
+  },
+  {
+    "id": 592,
+    "en": "Avance Trail",
+    "ja": "アバンセどおり"
+  },
+  {
+    "id": 593,
+    "en": "Santalune Forest",
+    "ja": "ハクダンのもり"
+  },
+  {
+    "id": 594,
+    "en": "Route 3",
+    "ja": "３ばんどうろ"
+  },
+  {
+    "id": 595,
+    "en": "Ouvert Way",
+    "ja": "ウベールどおり"
+  },
+  {
+    "id": 596,
+    "en": "Santalune City",
+    "ja": "ハクダンシティ"
+  },
+  {
+    "id": 597,
+    "en": "Route 4",
+    "ja": "４ばんどうろ"
+  },
+  {
+    "id": 598,
+    "en": "Parterre Way",
+    "ja": "パルテールかいどう"
+  },
+  {
+    "id": 599,
+    "en": "Lumiose City",
+    "ja": "ミアレシティ"
+  },
+  {
+    "id": 600,
+    "en": "Prism Tower",
+    "ja": "プリズムタワー"
+  },
+  {
+    "id": 601,
+    "en": "Lysandre Labs",
+    "ja": "フラダリラボ"
+  },
+  {
+    "id": 602,
+    "en": "Route 5",
+    "ja": "５ばんどうろ"
+  },
+  {
+    "id": 603,
+    "en": "Versant Road",
+    "ja": "ベルサンどおり"
+  },
+  {
+    "id": 604,
+    "en": "Camphrier Town",
+    "ja": "コボクタウン"
+  },
+  {
+    "id": 605,
+    "en": "Shabboneau Castle",
+    "ja": "ショボンヌじょう"
+  },
+  {
+    "id": 606,
+    "en": "Route 6",
+    "ja": "６ばんどうろ"
+  },
+  {
+    "id": 607,
+    "en": "Palais Lane",
+    "ja": "パレのなみきみち"
+  },
+  {
+    "id": 608,
+    "en": "Parfum Palace",
+    "ja": "パルファムきゅうでん"
+  },
+  {
+    "id": 609,
+    "en": "Route 7",
+    "ja": "７ばんどうろ"
+  },
+  {
+    "id": 610,
+    "en": "Rivière Walk",
+    "ja": "リビエールライン"
+  },
+  {
+    "id": 611,
+    "en": "Cyllage City",
+    "ja": "ショウヨウシティ"
+  },
+  {
+    "id": 612,
+    "en": "Route 8",
+    "ja": "８ばんどうろ"
+  },
+  {
+    "id": 613,
+    "en": "Muraille Coast",
+    "ja": "ミュライユかいがん"
+  },
+  {
+    "id": 614,
+    "en": "Ambrette Town",
+    "ja": "コウジンタウン"
+  },
+  {
+    "id": 615,
+    "en": "Route 9",
+    "ja": "９ばんどうろ"
+  },
+  {
+    "id": 616,
+    "en": "Spikes Passage",
+    "ja": "トゲトゲさんどう"
+  },
+  {
+    "id": 617,
+    "en": "Battle Chateau",
+    "ja": "バトルシャトー"
+  },
+  {
+    "id": 618,
+    "en": "Route 10",
+    "ja": "１０ばんどうろ"
+  },
+  {
+    "id": 619,
+    "en": "Menhir Trail",
+    "ja": "メンヒルロード"
+  },
+  {
+    "id": 620,
+    "en": "Geosenge Town",
+    "ja": "セキタイタウン"
+  },
+  {
+    "id": 621,
+    "en": "Route 11",
+    "ja": "１１ばんどうろ"
+  },
+  {
+    "id": 622,
+    "en": "Miroir Way",
+    "ja": "ミロワールどおり"
+  },
+  {
+    "id": 623,
+    "en": "Reflection Cave",
+    "ja": "うつしみのどうくつ"
+  },
+  {
+    "id": 624,
+    "en": "Shalour City",
+    "ja": "シャラシティ"
+  },
+  {
+    "id": 625,
+    "en": "Tower of Mastery",
+    "ja": "マスタータワー"
+  },
+  {
+    "id": 626,
+    "en": "Route 12",
+    "ja": "１２ばんどうろ"
+  },
+  {
+    "id": 627,
+    "en": "Fourrage Road",
+    "ja": "フラージュどおり"
+  },
+  {
+    "id": 628,
+    "en": "Coumarine City",
+    "ja": "ヒヨクシティ"
+  },
+  {
+    "id": 629,
+    "en": "Route 13",
+    "ja": "１３ばんどうろ"
+  },
+  {
+    "id": 630,
+    "en": "Lumiose Badlands",
+    "ja": "ミアレのこうや"
+  },
+  {
+    "id": 631,
+    "en": "Route 14",
+    "ja": "１４ばんどうろ"
+  },
+  {
+    "id": 632,
+    "en": "Laverre Nature Trail",
+    "ja": "クノエのりんどう"
+  },
+  {
+    "id": 633,
+    "en": "Laverre City",
+    "ja": "クノエシティ"
+  },
+  {
+    "id": 634,
+    "en": "Poké Ball Factory",
+    "ja": "ボールこうじょう"
+  },
+  {
+    "id": 635,
+    "en": "Route 15",
+    "ja": "１５ばんどうろ"
+  },
+  {
+    "id": 636,
+    "en": "Brun Way",
+    "ja": "ブランどおり"
+  },
+  {
+    "id": 637,
+    "en": "Dendemille Town",
+    "ja": "フウジョタウン"
+  },
+  {
+    "id": 638,
+    "en": "Route 16",
+    "ja": "１６ばんどうろ"
+  },
+  {
+    "id": 639,
+    "en": "Mélancolie Path",
+    "ja": "トリストどおり"
+  },
+  {
+    "id": 640,
+    "en": "Frost Cavern",
+    "ja": "フロストケイブ"
+  },
+  {
+    "id": 641,
+    "en": "Route 17",
+    "ja": "１７ばんどうろ"
+  },
+  {
+    "id": 642,
+    "en": "Mamoswine Road",
+    "ja": "マンムーロード"
+  },
+  {
+    "id": 643,
+    "en": "Anistar City",
+    "ja": "ヒャッコクシティ"
+  },
+  {
+    "id": 644,
+    "en": "Route 18",
+    "ja": "１８ばんどうろ"
+  },
+  {
+    "id": 645,
+    "en": "Vallée Étroite Way",
+    "ja": "エトロワ・バレどおり"
+  },
+  {
+    "id": 646,
+    "en": "Couriway Town",
+    "ja": "レンリタウン"
+  },
+  {
+    "id": 647,
+    "en": "Route 19",
+    "ja": "１９ばんどうろ"
+  },
+  {
+    "id": 648,
+    "en": "Grande Vallée Way",
+    "ja": "ラルジュ・バレどおり"
+  },
+  {
+    "id": 649,
+    "en": "Snowbelle City",
+    "ja": "エイセツシティ"
+  },
+  {
+    "id": 650,
+    "en": "Route 20",
+    "ja": "２０ばんどうろ"
+  },
+  {
+    "id": 651,
+    "en": "Winding Woods",
+    "ja": "まよいのもり"
+  },
+  {
+    "id": 652,
+    "en": "Pokémon Village",
+    "ja": "ポケモンのむら"
+  },
+  {
+    "id": 653,
+    "en": "Route 21",
+    "ja": "２１ばんどうろ"
+  },
+  {
+    "id": 654,
+    "en": "Dernière Way",
+    "ja": "デルニエどおり"
+  },
+  {
+    "id": 655,
+    "en": "Route 22",
+    "ja": "２２ばんどうろ"
+  },
+  {
+    "id": 656,
+    "en": "Détourner Way",
+    "ja": "デトルネどおり"
+  },
+  {
+    "id": 657,
+    "en": "Victory Road",
+    "ja": "チャンピオンロード"
+  },
+  {
+    "id": 658,
+    "en": "Pokémon League",
+    "ja": "ポケモンリーグ"
+  },
+  {
+    "id": 659,
+    "en": "Kiloude City",
+    "ja": "キナンシティ"
+  },
+  {
+    "id": 660,
+    "en": "Battle Maison",
+    "ja": "バトルハウス"
+  },
+  {
+    "id": 661,
+    "en": "Azure Bay",
+    "ja": "アズールわん"
+  },
+  {
+    "id": 662,
+    "en": "Dendemille Gate",
+    "ja": "フウジョゲート"
+  },
+  {
+    "id": 663,
+    "en": "Couriway Gate",
+    "ja": "レンリゲート"
+  },
+  {
+    "id": 664,
+    "en": "Ambrette Gate",
+    "ja": "コウジンゲート"
+  },
+  {
+    "id": 665,
+    "en": "Lumiose Gate",
+    "ja": "ミアレゲート"
+  },
+  {
+    "id": 666,
+    "en": "Shalour Gate",
+    "ja": "シャラゲート"
+  },
+  {
+    "id": 667,
+    "en": "Coumarine Gate",
+    "ja": "ヒヨクゲート"
+  },
+  {
+    "id": 668,
+    "en": "Laverre Gate",
+    "ja": "クノエゲート"
+  },
+  {
+    "id": 669,
+    "en": "Anistar Gate",
+    "ja": "ヒャッコクゲート"
+  },
+  {
+    "id": 670,
+    "en": "Snowbelle Gate",
+    "ja": "エイセツゲート"
+  },
+  {
+    "id": 671,
+    "en": "Glittering Cave",
+    "ja": "かがやきのどうくつ"
+  },
+  {
+    "id": 672,
+    "en": "Connecting Cave",
+    "ja": "じつなぎのどうけつ"
+  },
+  {
+    "id": 673,
+    "en": "Zubat Roost",
+    "ja": "ズバットたちのすみか"
+  },
+  {
+    "id": 674,
+    "en": "Kalos Power Plant",
+    "ja": "カロスはつでんしょ"
+  },
+  {
+    "id": 675,
+    "en": "Team Flare Secret HQ",
+    "ja": "フレアだんひみつきち"
+  },
+  {
+    "id": 676,
+    "en": "Terminus Cave",
+    "ja": "ついのどうくつ"
+  },
+  {
+    "id": 677,
+    "en": "Lost Hotel",
+    "ja": "あれはてホテル"
+  },
+  {
+    "id": 678,
+    "en": "Chamber of Emptiness",
+    "ja": "うつろのま"
+  },
+  {
+    "id": 679,
+    "en": "Sea Spirit’s Den",
+    "ja": "わだつみのあな"
+  },
+  {
+    "id": 680,
+    "en": "Friend Safari",
+    "ja": "フレンドサファリ"
+  },
+  {
+    "id": 681,
+    "en": "Blazing Chamber",
+    "ja": "かえんのま"
+  },
+  {
+    "id": 682,
+    "en": "Flood Chamber",
+    "ja": "すいもんのま"
+  },
+  {
+    "id": 683,
+    "en": "Ironworks Chamber",
+    "ja": "こうてつのま"
+  },
+  {
+    "id": 684,
+    "en": "Dragonmark Chamber",
+    "ja": "りゅうしょうのま"
+  },
+  {
+    "id": 685,
+    "en": "Radiant Chamber",
+    "ja": "ひかりのま"
+  },
+  {
+    "id": 686,
+    "en": "Pokémon League Gate",
+    "ja": "ポケモンリーグゲート"
+  },
+  {
+    "id": 687,
+    "en": "Lumiose Station",
+    "ja": "ミアレステーション"
+  },
+  {
+    "id": 688,
+    "en": "Kiloude Station",
+    "ja": "キナンステーション"
+  },
+  {
+    "id": 689,
+    "en": "Ambrette Aquarium",
+    "ja": "コウジンすいぞくかん"
+  },
+  {
+    "id": 690,
+    "en": "Unknown Dungeon",
+    "ja": "ななしのどうくつ"
+  },
+  {
+    "id": 691,
+    "en": "Pokémon League",
+    "ja": "ポケモンリーグ"
+  },
+  {
+    "id": 692,
+    "en": "Team Aqua Hideout",
+    "ja": "アクアだんアジト"
+  },
+  {
+    "id": 693,
+    "en": "Sea Mauville",
+    "ja": "シーキンセツ"
+  },
+  {
+    "id": 694,
+    "en": "Team Magma Hideout",
+    "ja": "マグマだんアジト"
+  },
+  {
+    "id": 695,
+    "en": "Battle Resort",
+    "ja": "バトルリゾート"
+  },
+  {
+    "id": 696,
+    "en": "S.S. Tidal",
+    "ja": "タイドリップごう"
+  },
+  {
+    "id": 697,
+    "en": "Mirage Forest",
+    "ja": "マボロシもり"
+  },
+  {
+    "id": 698,
+    "en": "Mirage Cave",
+    "ja": "マボロシどうくつ"
+  },
+  {
+    "id": 699,
+    "en": "Mirage Mountain",
+    "ja": "マボロシやま"
+  },
+  {
+    "id": 700,
+    "en": "Trackless Forest",
+    "ja": "みかいのもり"
+  },
+  {
+    "id": 701,
+    "en": "Pathless Plain",
+    "ja": "なもなきへいげん"
+  },
+  {
+    "id": 702,
+    "en": "Nameless Cavern",
+    "ja": "みちのどうくつ"
+  },
+  {
+    "id": 703,
+    "en": "Fabled Cave",
+    "ja": "おぼろのどうくつ"
+  },
+  {
+    "id": 704,
+    "en": "Gnarled Den",
+    "ja": "いびつなあな"
+  },
+  {
+    "id": 705,
+    "en": "Crescent Isle",
+    "ja": "ゆみなりのしま"
+  },
+  {
+    "id": 706,
+    "en": "Secret Islet",
+    "ja": "ひみつのこじま"
+  },
+  {
+    "id": 707,
+    "en": "Soaring in the sky",
+    "ja": "おおぞら"
+  },
+  {
+    "id": 708,
+    "en": "Secret Shore",
+    "ja": "ひみつのいそべ"
+  },
+  {
+    "id": 709,
+    "en": "Secret Meadow",
+    "ja": "ひみつのはなばたけ"
+  },
+  {
+    "id": 710,
+    "en": "Route 1",
+    "ja": "１ばんどうろ"
+  },
+  {
+    "id": 711,
+    "en": "Route 1",
+    "ja": "１ばんどうろ"
+  },
+  {
+    "id": 712,
+    "en": "Route 3",
+    "ja": "３ばんどうろ"
+  },
+  {
+    "id": 713,
+    "en": "Route 2",
+    "ja": "２ばんどうろ"
+  },
+  {
+    "id": 714,
+    "en": "Kala’e Bay",
+    "ja": "カーラエわん"
+  },
+  {
+    "id": 715,
+    "en": "Melemele Sea",
+    "ja": "メレメレかい"
+  },
+  {
+    "id": 716,
+    "en": "Hau’oli City",
+    "ja": "ハウオリシティ"
+  },
+  {
+    "id": 717,
+    "en": "Hau’oli City",
+    "ja": "ハウオリシティ"
+  },
+  {
+    "id": 718,
+    "en": "Hau’oli City",
+    "ja": "ハウオリシティ"
+  },
+  {
+    "id": 719,
+    "en": "Iki Town",
+    "ja": "リリィタウン"
+  },
+  {
+    "id": 720,
+    "en": "Mahalo Trail",
+    "ja": "マハロさんどう"
+  },
+  {
+    "id": 721,
+    "en": "Mahalo Trail",
+    "ja": "マハロさんどう"
+  },
+  {
+    "id": 722,
+    "en": "Ruins of Conflict",
+    "ja": "いくさのいせき"
+  },
+  {
+    "id": 723,
+    "en": "Ten Carat Hill",
+    "ja": "テンカラットヒル"
+  },
+  {
+    "id": 724,
+    "en": "Ten Carat Hill",
+    "ja": "テンカラットヒル"
+  },
+  {
+    "id": 725,
+    "en": "Hau’oli Cemetery",
+    "ja": "ハウオリれいえん"
+  },
+  {
+    "id": 726,
+    "en": "Melemele Meadow",
+    "ja": "メレメレのはなぞの"
+  },
+  {
+    "id": 727,
+    "en": "Seaward Cave",
+    "ja": "うみつなぎのどうけつ"
+  },
+  {
+    "id": 728,
+    "en": "Berry Fields",
+    "ja": "きのみばたけ"
+  },
+  {
+    "id": 729,
+    "en": "Verdant Cavern",
+    "ja": "しげみのどうくつ"
+  },
+  {
+    "id": 730,
+    "en": "Verdant Cavern",
+    "ja": "しげみのどうくつ"
+  },
+  {
+    "id": 731,
+    "en": "Route 4",
+    "ja": "４ばんどうろ"
+  },
+  {
+    "id": 732,
+    "en": "Route 5",
+    "ja": "５ばんどうろ"
+  },
+  {
+    "id": 733,
+    "en": "Route 6",
+    "ja": "６ばんどうろ"
+  },
+  {
+    "id": 734,
+    "en": "Route 7",
+    "ja": "７ばんどうろ"
+  },
+  {
+    "id": 735,
+    "en": "Route 8",
+    "ja": "８ばんどうろ"
+  },
+  {
+    "id": 736,
+    "en": "Route 9",
+    "ja": "９ばんどうろ"
+  },
+  {
+    "id": 737,
+    "en": "Hano Grand Resort",
+    "ja": "ハノハノリゾート"
+  },
+  {
+    "id": 738,
+    "en": "Hano Beach",
+    "ja": "ハノハノビーチ"
+  },
+  {
+    "id": 739,
+    "en": "Akala Meadow",
+    "ja": "アーカラのはなぞの"
+  },
+  {
+    "id": 740,
+    "en": "Paniola Town",
+    "ja": "オハナタウン"
+  },
+  {
+    "id": 741,
+    "en": "Heahea City",
+    "ja": "カンタイシティ"
+  },
+  {
+    "id": 742,
+    "en": "Konikoni City",
+    "ja": "コニコシティ"
+  },
+  {
+    "id": 743,
+    "en": "Royal Avenue",
+    "ja": "ロイヤルアベニュー"
+  },
+  {
+    "id": 744,
+    "en": "Memorial Hill",
+    "ja": "メモリアルヒル"
+  },
+  {
+    "id": 745,
+    "en": "Paniola Ranch",
+    "ja": "オハナぼくじょう"
+  },
+  {
+    "id": 746,
+    "en": "Wela Volcano Park",
+    "ja": "ヴェラかざんこうえん"
+  },
+  {
+    "id": 747,
+    "en": "Wela Volcano Park",
+    "ja": "ヴェラかざんこうえん"
+  },
+  {
+    "id": 748,
+    "en": "Brooklet Hill",
+    "ja": "せせらぎのおか"
+  },
+  {
+    "id": 749,
+    "en": "Brooklet Hill",
+    "ja": "せせらぎのおか"
+  },
+  {
+    "id": 750,
+    "en": "Lush Jungle",
+    "ja": "シェードジャングル"
+  },
+  {
+    "id": 751,
+    "en": "Ruins of Life",
+    "ja": "いのちのいせき"
+  },
+  {
+    "id": 752,
+    "en": "Akala Outskirts",
+    "ja": "アーカラじまはずれ"
+  },
+  {
+    "id": 753,
+    "en": "Diglett’s Tunnel",
+    "ja": "ディグダトンネル"
+  },
+  {
+    "id": 754,
+    "en": "Battle Royal Dome",
+    "ja": "ロイヤルドーム"
+  },
+  {
+    "id": 755,
+    "en": "Route 10",
+    "ja": "１０ばんどうろ"
+  },
+  {
+    "id": 756,
+    "en": "Route 11",
+    "ja": "１１ばんどうろ"
+  },
+  {
+    "id": 757,
+    "en": "Secluded Shore",
+    "ja": "ウラウラうらかいがん"
+  },
+  {
+    "id": 758,
+    "en": "Route 13",
+    "ja": "１３ばんどうろ"
+  },
+  {
+    "id": 759,
+    "en": "Tapu Village",
+    "ja": "カプのむら"
+  },
+  {
+    "id": 760,
+    "en": "Route 15",
+    "ja": "１５ばんすいどう"
+  },
+  {
+    "id": 761,
+    "en": "Route 16",
+    "ja": "１６ばんどうろ"
+  },
+  {
+    "id": 762,
+    "en": "Route 17",
+    "ja": "１７ばんどうろ"
+  },
+  {
+    "id": 763,
+    "en": "Route 12",
+    "ja": "１２ばんどうろ"
+  },
+  {
+    "id": 764,
+    "en": "Haina Desert",
+    "ja": "ハイナさばく"
+  },
+  {
+    "id": 765,
+    "en": "Route 14",
+    "ja": "１４ばんどうろ"
+  },
+  {
+    "id": 766,
+    "en": "Ula’ula Meadow",
+    "ja": "ウラウラのはなぞの"
+  },
+  {
+    "id": 767,
+    "en": "Po Town",
+    "ja": "ポータウン"
+  },
+  {
+    "id": 768,
+    "en": "Malie City",
+    "ja": "マリエシティ"
+  },
+  {
+    "id": 769,
+    "en": "Malie Garden",
+    "ja": "マリエていえん"
+  },
+  {
+    "id": 770,
+    "en": "Mount Hokulani",
+    "ja": "ホクラニだけ"
+  },
+  {
+    "id": 771,
+    "en": "Blush Mountain",
+    "ja": "ホテリやま"
+  },
+  {
+    "id": 772,
+    "en": "Ruins of Abundance",
+    "ja": "みのりのいせき"
+  },
+  {
+    "id": 773,
+    "en": "Lake of the Sunne",
+    "ja": "にちりんのみずうみ"
+  },
+  {
+    "id": 774,
+    "en": "Lake of the Moone",
+    "ja": "がちりんのみずうみ"
+  },
+  {
+    "id": 775,
+    "en": "Mount Lanakila",
+    "ja": "ラナキラマウンテン"
+  },
+  {
+    "id": 776,
+    "en": "Shady House",
+    "ja": "いかがわしきやしき"
+  },
+  {
+    "id": 777,
+    "en": "Thrifty Megamart",
+    "ja": "スーパー・メガやす"
+  },
+  {
+    "id": 778,
+    "en": "Hokulani Observatory",
+    "ja": "ホクラニてんもんだい"
+  },
+  {
+    "id": 779,
+    "en": "Pokémon League",
+    "ja": "ポケモンリーグ"
+  },
+  {
+    "id": 780,
+    "en": "Poni Meadow",
+    "ja": "ポニのはなぞの"
+  },
+  {
+    "id": 781,
+    "en": "Poni Wilds",
+    "ja": "ポニのげんや"
+  },
+  {
+    "id": 782,
+    "en": "Ancient Poni Path",
+    "ja": "ポニのこどう"
+  },
+  {
+    "id": 783,
+    "en": "Poni Breaker Coast",
+    "ja": "ポニのあらいそ"
+  },
+  {
+    "id": 784,
+    "en": "Poni Grove",
+    "ja": "ポニのじゅりん"
+  },
+  {
+    "id": 785,
+    "en": "Poni Plains",
+    "ja": "ポニのこうや"
+  },
+  {
+    "id": 786,
+    "en": "Poni Coast",
+    "ja": "ポニのかいがん"
+  },
+  {
+    "id": 787,
+    "en": "Poni Gauntlet",
+    "ja": "ポニのけんろ"
+  },
+  {
+    "id": 788,
+    "en": "Seafolk Village",
+    "ja": "うみのたみのむら"
+  },
+  {
+    "id": 789,
+    "en": "Vast Poni Canyon",
+    "ja": "ポニのだいきょうこく"
+  },
+  {
+    "id": 790,
+    "en": "Altar of the Sunne",
+    "ja": "にちりんのさいだん"
+  },
+  {
+    "id": 791,
+    "en": "Altar of the Moone",
+    "ja": "がちりんのさいだん"
+  },
+  {
+    "id": 792,
+    "en": "Ruins of Hope",
+    "ja": "ひがんのいせき"
+  },
+  {
+    "id": 793,
+    "en": "Resolution Cave",
+    "ja": "エンドケイブ"
+  },
+  {
+    "id": 794,
+    "en": "Exeggutor Island",
+    "ja": "ナッシー・アイランド"
+  },
+  {
+    "id": 795,
+    "en": "Battle Tree",
+    "ja": "バトルツリー"
+  },
+  {
+    "id": 796,
+    "en": "Aether Paradise",
+    "ja": "エーテルパラダイス"
+  },
+  {
+    "id": 797,
+    "en": "Ultra Space",
+    "ja": "ウルトラスペース"
+  },
+  {
+    "id": 798,
+    "en": "Malie City",
+    "ja": "マリエシティ"
+  }
+]
