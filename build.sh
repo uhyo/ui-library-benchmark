@@ -1,7 +1,7 @@
 #! /bin/bash
 set -e
 
-rm -r dist
+rm -r dist || true
 mkdir -p dist
 
 cd angular
