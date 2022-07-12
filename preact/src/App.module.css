@@ -1,0 +1,17 @@
+.pokemonList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.searchBox {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  text-align: center;
+}

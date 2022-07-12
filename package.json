@@ -12,6 +12,7 @@
   "private": true,
   "workspaces": [
     "angular",
+    "preact",
     "react",
     "solidjs",
     "svelte",

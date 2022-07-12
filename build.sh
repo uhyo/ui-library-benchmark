@@ -29,4 +29,9 @@ yarn build
 cp -r dist ../dist/vue
 cd ..
 
+cd preact
+yarn build
+cp -r dist ../dist/preact
+cd ..
+
 cp index.html dist/

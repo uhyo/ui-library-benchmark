@@ -30,6 +30,7 @@ async function benchmark() {
       // removeChar,
     ]);
     const end = performance.now();
+    await waitForIdle();
     return end - start;
   }
 
