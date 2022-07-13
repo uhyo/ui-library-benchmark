@@ -1,6 +1,6 @@
 <div class="pokemonList">
   <app-item
-    *ngFor="let id of itemIds"
+    *ngFor="let id of itemIds; trackBy: trackById"
     [id]="id"
     [searchQuery]="searchQuery"
   ></app-item>

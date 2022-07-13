@@ -16,4 +16,12 @@ export class AppComponent {
     this.input = value;
     this.searchQuery = value.toLowerCase();
   }
+
+  /**
+   * Tell how to track changes of the collection to Angular.
+   * @see https://angular.jp/guide/built-in-directives#tracking-items-with-ngfor-trackby
+   */
+  trackById(index: number, itemId: string) {
+    return itemId;
+  }
 }
