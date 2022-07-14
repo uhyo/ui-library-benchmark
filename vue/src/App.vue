@@ -29,10 +29,12 @@ import SearchBox from './components/SearchBox.vue';
 
 <style scoped>
 .pokemonList {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-gap: 20px;
-  margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 160px);
+    grid-auto-rows: 4em;
+    grid-gap: 20px;
+    margin: 20px;
+    justify-content: space-between;
 }
 
 .searchBox {
