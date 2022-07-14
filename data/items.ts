@@ -42,6 +42,22 @@ export const itemMap = new Map<string, Item>([
   ...sortById(withPrefixedId("m8", move)),
   ...sortById(withPrefixedId("i8", item)),
   ...sortById(withPrefixedId("l8", location)),
+  ...sortById(withPrefixedId("p9", pokemon)),
+  ...sortById(withPrefixedId("m9", move)),
+  ...sortById(withPrefixedId("i9", item)),
+  ...sortById(withPrefixedId("l9", location)),
+  ...sortById(withPrefixedId("p10", pokemon)),
+  ...sortById(withPrefixedId("m10", move)),
+  ...sortById(withPrefixedId("i10", item)),
+  ...sortById(withPrefixedId("l10", location)),
+  ...sortById(withPrefixedId("p11", pokemon)),
+  ...sortById(withPrefixedId("m11", move)),
+  ...sortById(withPrefixedId("i11", item)),
+  ...sortById(withPrefixedId("l11", location)),
+  ...sortById(withPrefixedId("p12", pokemon)),
+  ...sortById(withPrefixedId("m12", move)),
+  ...sortById(withPrefixedId("i12", item)),
+  ...sortById(withPrefixedId("l12", location)),
 ]);
 
 function withPrefixedId(
