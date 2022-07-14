@@ -33,6 +33,11 @@ async function benchmark() {
   async function runOnce() {
     inputClear();
     await waitForIdle();
+    if (document.querySelectorAll("mark").length !== 0) {
+      throw new Error(
+        "Regulation Failure: main thread is idle before rendering is completed"
+      );
+    }
     const start = performance.now();
     const inputDelay = await runTasks(INTERVAL, [
       inputChar("b"),
