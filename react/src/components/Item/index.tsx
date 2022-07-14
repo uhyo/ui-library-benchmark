@@ -14,40 +14,38 @@ type Props = {
 };
 
 export const Item: React.FC<Props> = ({ id, searchQuery }) => {
-  const item = itemMap.get(id);
+  const item = useMemo(() => itemMap.get(id), [id]);
+
+  const nameMarked = useMemo(() => {
+    if (!item) {
+      return undefined;
+    }
+    if (!searchQuery) {
+      return <span className={classes.name}>{item.en}</span>;
+    }
+    const name = item.en.toLowerCase();
+    const searchIndex = name.indexOf(searchQuery);
+    if (searchIndex === -1) {
+      return (
+        <span className={`${classes.name} ${classes.unmatchedName}`}>
+          {item.en}
+        </span>
+      );
+    }
+    return (
+      <span className={classes.name}>
+        {item.en.substring(0, searchIndex)}
+        <mark>
+          {item.en.substring(searchIndex, searchIndex + searchQuery.length)}
+        </mark>
+        {item.en.substring(searchIndex + searchQuery.length)}
+      </span>
+    );
+  }, [item, searchQuery]);
+
   if (!item) {
     return null;
   }
-
-  const name = item.en.toLowerCase();
-  const { nameMarked } = useMemo(() => {
-    if (!searchQuery) {
-      return {
-        nameMarked: <span className={classes.name}>{item.en}</span>,
-      };
-    }
-    const searchIndex = name.indexOf(searchQuery);
-    if (searchIndex === -1) {
-      return {
-        nameMarked: (
-          <span className={`${classes.name} ${classes.unmatchedName}`}>
-            {item.en}
-          </span>
-        ),
-      };
-    }
-    return {
-      nameMarked: (
-        <span className={classes.name}>
-          {item.en.substring(0, searchIndex)}
-          <mark>
-            {item.en.substring(searchIndex, searchIndex + searchQuery.length)}
-          </mark>
-          {item.en.substring(searchIndex + searchQuery.length)}
-        </span>
-      ),
-    };
-  }, [name, item.en, searchQuery]);
 
   return (
     <div className={classes.wrapper}>

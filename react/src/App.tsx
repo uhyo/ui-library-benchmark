@@ -1,4 +1,5 @@
 import {
+  memo,
   useCallback,
   useEffect,
   useMemo,
@@ -32,11 +33,7 @@ function App() {
 
   return (
     <>
-      <div className={classes.pokemonList}>
-        {itemKeys.map((id) => {
-          return <Item key={id} id={id} searchQuery={searchQuery} />;
-        })}
-      </div>
+      <PokemonList itemKeys={itemKeys} searchQuery={searchQuery} />
       <footer className={classes.footer}>
         <p>
           Data is obtained from{" "}
@@ -52,5 +49,18 @@ function App() {
     </>
   );
 }
+
+const PokemonList: React.FC<{
+  itemKeys: readonly string[];
+  searchQuery: string;
+}> = memo(({ itemKeys, searchQuery }) => {
+  return (
+    <div className={classes.pokemonList}>
+      {itemKeys.map((id) => {
+        return <Item key={id} id={id} searchQuery={searchQuery} />;
+      })}
+    </div>
+  );
+});
 
 export default App;
