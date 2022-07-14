@@ -46,6 +46,12 @@ async function benchmark() {
     ]);
     await waitForIdle();
     const end = performance.now();
+    // Validate that rendering is complete at this time
+    if (document.querySelectorAll("mark").length !== 506) {
+      throw new Error(
+        "Regulation Failure: main thread is idle before rendering is completed"
+      );
+    }
     return {
       inputDelay,
       renderingOverhead: end - start - INTERVAL * 3,
