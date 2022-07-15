@@ -50,7 +50,7 @@
 
 {#if item && nameMarked}
   <div class="wrapper">
-    <div class="id">{id}</div>
+    <div class="id">{item.id}</div>
     <div>
       <span class="name" class:unmatchedName={nameMarked.unmatched}>
         {nameMarked.prefix}{#if nameMarked.mark}<mark>{nameMarked.mark}</mark

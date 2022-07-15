@@ -1,14 +1,23 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
   import Item from "./components/Item.svelte";
   import SearchBox from "./components/SearchBox.svelte";
-  import { itemMap } from "./data/items";
+  import { itemMap, oneSetSize } from "./data/items";
 
+  let dataSetRepeat = 1;
   let input = "";
-  const itemIds = Array.from(itemMap.keys());
+  $: itemIds = Array.from(itemMap.keys()).slice(0, dataSetRepeat * oneSetSize);
+
+  onMount(() => {
+    globalThis.setDataSetRepeatSize = (newDataSetRepeatSize: number) => {
+      dataSetRepeat = newDataSetRepeatSize;
+    };
+  });
 </script>
 
 <div class="pokemonList">
-  {#each itemIds as id}
+  {#each itemIds as id (id)}
     <Item {id} searchQuery={input} />
   {/each}
 </div>

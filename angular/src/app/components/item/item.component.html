@@ -1,5 +1,5 @@
 <div class="wrapper" *ngIf="item && nameMarked">
-  <div class="id">{{ id }}</div>
+  <div class="id">{{ item.id }}</div>
   <div>
     <span class="name" [class.unmatchedName]="nameMarked.unmatched">
       {{ nameMarked.prefix

@@ -48,7 +48,7 @@ const nameMarked = computed(() => {
 </script>
 <template>
   <div class="wrapper" v-if="item && nameMarked">
-    <div class="id">{{ id }}</div>
+    <div class="id">{{ item.id }}</div>
     <div>
       <span :class="['name', {unmatchedName: nameMarked.unmatched}]">
         {{ nameMarked.prefix }}<mark v-if="nameMarked.mark">{{ nameMarked.mark }}</mark>{{ nameMarked.suffix }}

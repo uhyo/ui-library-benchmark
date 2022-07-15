@@ -1,10 +1,17 @@
-import { useCallback, useState, useTransition } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+  useTransition,
+} from "react";
 import classes from "./App.module.css";
 import { Item } from "./components/Item";
 import { SearchBox } from "./components/SearchBox";
-import { itemMap } from "./data/items";
+import { itemMap, oneSetSize } from "./data/items";
 
 function App() {
+  const [dataSetRepeat, setDataSetRepeatSize] = useState(1);
   const [input, setInput] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
   const [, startTransition] = useTransition();
@@ -15,10 +22,18 @@ function App() {
     });
   }, []);
 
+  const itemKeys = useMemo(() => {
+    return Array.from(itemMap.keys()).slice(0, dataSetRepeat * oneSetSize);
+  }, [dataSetRepeat]);
+
+  useEffect(() => {
+    globalThis.setDataSetRepeatSize = setDataSetRepeatSize;
+  }, []);
+
   return (
     <>
       <div className={classes.pokemonList}>
-        {Array.from(itemMap.keys()).map((id) => {
+        {itemKeys.map((id) => {
           return <Item key={id} id={id} searchQuery={searchQuery} />;
         })}
       </div>

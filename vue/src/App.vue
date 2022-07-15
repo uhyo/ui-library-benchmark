@@ -1,12 +1,19 @@
 <script setup lang="ts">
-  import { computed, ref } from 'vue';
-import { itemMap } from './data/items';
+  import { computed, onMounted, ref } from 'vue';
+import { itemMap, oneSetSize } from './data/items';
 import Item from './components/Item.vue';
 import SearchBox from './components/SearchBox.vue';
 
+  const dataSetRepeat = ref(1);
   const input = ref('');
 
-  const itemIds = computed(() => Array.from(itemMap.keys()))
+  const itemIds = computed(() => Array.from(itemMap.keys()).slice(0, dataSetRepeat.value * oneSetSize));
+
+  onMounted(() => {
+    globalThis.setDataSetRepeatSize = (size: number) => {
+      dataSetRepeat.value = size;
+    };
+  })
 </script>
 
 <template>

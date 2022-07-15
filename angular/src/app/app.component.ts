@@ -1,5 +1,5 @@
-import { Component } from "@angular/core";
-import { itemMap } from "../data/items";
+import { Component, NgZone } from "@angular/core";
+import { itemMap, oneSetSize } from "../data/items";
 
 @Component({
   selector: "app-root",
@@ -7,10 +7,18 @@ import { itemMap } from "../data/items";
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
+  constructor(private ngZone: NgZone) {}
+  itemIds: string[] = Array.from(itemMap.keys()).slice(0, oneSetSize);
   input = "";
   searchQuery = "";
 
-  itemIds = Array.from(itemMap.keys());
+  ngOnInit() {
+    globalThis.setDataSetRepeatSize = (size: number) => {
+      this.ngZone.run(() => {
+        this.itemIds = Array.from(itemMap.keys()).slice(0, size * oneSetSize);
+      });
+    };
+  }
 
   onInput(value: string) {
     this.input = value;

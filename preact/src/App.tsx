@@ -1,10 +1,11 @@
-import { useCallback, useState } from "preact/hooks";
+import { useCallback, useEffect, useMemo, useState } from "preact/hooks";
 import classes from "./App.module.css";
 import { Item } from "./components/Item";
 import { SearchBox } from "./components/SearchBox";
-import { itemMap } from "./data/items";
+import { itemMap, oneSetSize } from "./data/items";
 
 export function App() {
+  const [dataSetRepeat, setDataSetRepeatSize] = useState(1);
   const [input, setInput] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
   const onChange = useCallback((input: string) => {
@@ -12,10 +13,18 @@ export function App() {
     setSearchQuery(input.toLowerCase());
   }, []);
 
+  useEffect(() => {
+    globalThis.setDataSetRepeatSize = setDataSetRepeatSize;
+  }, []);
+
+  const itemKeys = useMemo(() => {
+    return Array.from(itemMap.keys()).slice(0, dataSetRepeat * oneSetSize);
+  }, [dataSetRepeat]);
+
   return (
     <>
       <div className={classes.pokemonList}>
-        {Array.from(itemMap.keys()).map((id) => {
+        {itemKeys.map((id) => {
           return <Item key={id} id={id} searchQuery={searchQuery} />;
         })}
       </div>

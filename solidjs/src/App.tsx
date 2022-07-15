@@ -1,10 +1,18 @@
-import { Component, createSignal, Index, useTransition } from "solid-js";
+import {
+  Component,
+  createMemo,
+  createSignal,
+  Index,
+  onMount,
+  useTransition,
+} from "solid-js";
 import classes from "./App.module.css";
 import { Item } from "./components/Item";
 import { SearchBox } from "./components/SearchBox";
-import { itemMap } from "./data/items";
+import { itemMap, oneSetSize } from "./data/items";
 
 const App: Component = () => {
+  const [dataSetRepeat, setDataSetRepeatSize] = createSignal(1);
   const [input, setInput] = createSignal("");
   const [searchQuery, setSearchQuery] = createSignal("");
   const [, startTransition] = useTransition();
@@ -16,10 +24,18 @@ const App: Component = () => {
     });
   };
 
+  const itemKeys = createMemo(() =>
+    Array.from(itemMap.keys()).slice(0, dataSetRepeat() * oneSetSize)
+  );
+
+  onMount(() => {
+    globalThis.setDataSetRepeatSize = setDataSetRepeatSize;
+  });
+
   return (
     <>
       <div classList={{ [classes.pokemonList]: true }}>
-        <Index each={Array.from(itemMap.keys())}>
+        <Index each={itemKeys()}>
           {(id) => <Item id={id()} searchQuery={searchQuery()} />}
         </Index>
       </div>
