@@ -1,3 +1,4 @@
+// hard-mode benchmark script v2
 async function benchmark() {
   const input = document.querySelector("input");
   // https://stackoverflow.com/questions/23892547/what-is-the-best-way-to-trigger-onchange-event-in-react-js
@@ -8,36 +9,51 @@ async function benchmark() {
 
   const N = 21;
   const INTERVAL = 64;
+  const SIZES = [1, 6, 12];
 
-  const inputDelayList = [];
-  const renderingOverheadList = [];
-  for (const _ of Array.from(range(0, N))) {
-    const { inputDelay, renderingOverhead } = await runOnce();
-    inputDelayList.push(inputDelay);
-    renderingOverheadList.push(renderingOverhead);
+  let inputDelay = 0;
+  let renderingOverhead = 0;
+  for (const size of SIZES) {
+    const { inputDelayMedian, renderingOverheadMedian } = await runOneSize(
+      size
+    );
+    inputDelay += inputDelayMedian * (12 / size);
+    renderingOverhead += renderingOverheadMedian * (12 / size);
   }
-  const inputDelayMedian = getMedian(inputDelayList);
-  const renderingOverheadMedian = getMedian(renderingOverheadList);
-  console.log("inputDelay:", inputDelayMedian);
-  console.log("renderingOverhead:", renderingOverheadMedian);
-  console.log({
-    inputDelayList,
-    renderingOverheadList,
-  });
+  console.log("--- result ---");
+  console.log("inputDelay:", inputDelay);
+  console.log("renderingOverhead:", renderingOverhead);
+
+  async function runOneSize(size) {
+    const inputDelayList = [];
+    const renderingOverheadList = [];
+    for (const _ of Array.from(range(0, N))) {
+      const { inputDelay, renderingOverhead } = await runOnce(size);
+      inputDelayList.push(inputDelay);
+      renderingOverheadList.push(renderingOverhead);
+    }
+    const inputDelayMedian = getMedian(inputDelayList);
+    const renderingOverheadMedian = getMedian(renderingOverheadList);
+    console.log({
+      size,
+      inputDelayList,
+      renderingOverheadList,
+    });
+    return {
+      inputDelayMedian,
+      renderingOverheadMedian,
+    };
+  }
 
   function getMedian(arr) {
     arr.sort((a, b) => a - b);
     return arr[arr.length >> 1];
   }
 
-  async function runOnce() {
+  async function runOnce(size) {
+    globalThis.setDataSetRepeatSize(size);
     inputClear();
-    await waitForIdle();
-    if (document.querySelectorAll("mark").length !== 0) {
-      throw new Error(
-        "Regulation Failure: main thread is idle before rendering is completed"
-      );
-    }
+    await waitUntil(() => document.querySelectorAll("mark").length === 0);
     const start = performance.now();
     const inputDelay = await runTasks(INTERVAL, [
       inputChar("b"),
@@ -49,18 +65,23 @@ async function benchmark() {
       // removeChar,
       // removeChar,
     ]);
-    await waitForIdle();
+    await waitUntil(
+      () => document.querySelectorAll("mark").length === 43 * size
+    );
     const end = performance.now();
-    // Validate that rendering is complete at this time
-    if (document.querySelectorAll("mark").length !== 506) {
-      throw new Error(
-        "Regulation Failure: main thread is idle before rendering is completed"
-      );
-    }
     return {
       inputDelay,
       renderingOverhead: end - start - INTERVAL * 3,
     };
+  }
+
+  async function waitUntil(predicate) {
+    while (true) {
+      if (predicate()) {
+        return;
+      }
+      await waitForIdle();
+    }
   }
 
   function runTasks(interval, _tasks) {

@@ -61,7 +61,6 @@ export const itemMap = new Map<string, Item>([
 ]);
 
 export const oneSetSize = itemMap.size / 12;
-console.log(itemMap);
 
 function withPrefixedId(
   prefix: string,
