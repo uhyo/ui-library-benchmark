@@ -7,7 +7,16 @@
 
   let dataSetRepeat = 1;
   let input = "";
+  let searchQuery = "";
   $: itemIds = Array.from(itemMap.keys()).slice(0, dataSetRepeat * oneSetSize);
+
+  let timerId: ReturnType<typeof setTimeout> | undefined;
+  $: {
+    clearTimeout(timerId);
+    timerId = setTimeout(() => {
+      searchQuery = input;
+    }, 100);
+  }
 
   onMount(() => {
     globalThis.setDataSetRepeatSize = (newDataSetRepeatSize: number) => {
@@ -18,7 +27,7 @@
 
 <div class="pokemonList">
   {#each itemIds as id (id)}
-    <Item {id} searchQuery={input} />
+    <Item {id} {searchQuery} />
   {/each}
 </div>
 
